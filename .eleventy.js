@@ -3,4 +3,5 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('scripts.js')
   eleventyConfig.addPassthroughCopy('markdown.png')
   eleventyConfig.addPassthroughCopy('me.jpg')
+  eleventyConfig.addPassthroughCopy('robots.txt')
 }
