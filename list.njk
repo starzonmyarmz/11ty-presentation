@@ -1,0 +1,14 @@
+---
+layout:
+permalink: "/states/"
+---
+
+US States
+
+<ul>
+  {% for state in states %}
+    <li>
+      <a href="/state/{{ state.name | slug }}">{{ state.name }}</a>
+    </li>
+  {% endfor %}
+</ul>

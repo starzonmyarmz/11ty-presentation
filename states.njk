@@ -3,6 +3,9 @@ pagination:
   data: states
   size: 1
   alias: state
-layout: default.njk
+layout:
 permalink: "/state/{{ state.name | slug }}/"
 ---
+
+<p>{{ state.name }} — {{ state.motto }}</p>
+<p><a href="/states">⬅ Back to States</a></p>
